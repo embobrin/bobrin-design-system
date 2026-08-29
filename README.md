@@ -50,11 +50,11 @@ The source of truth is the Bobrin portfolio repository that contains:
 - artifacts/portfolio/src/index.css (web tokens)
 - artifacts/portfolio-mobile/constants/colors.ts (React Native tokens)
 - artifacts/portfolio/src/components/ui/ (shared UI components)
-- the logo PNGs in attached_assets/
+- attached_assets/Edward-Bobrin*-white-high-res_*.png (logo PNGs)
 
 This repository is the reusable GitHub mirror at https://github.com/embobrin/bobrin-design-system. To sync it manually,
 run pnpm sync:design-system from the source repository with a checkout of this repository
 passed as the target directory. The same sync runs automatically on changes to those source
-paths and weekly through GitHub Actions. The action needs a DESIGN_SYSTEM_REPO_TOKEN secret
-with write access to this repository.
+paths and weekly through GitHub Actions. The action needs a fine-grained
+DESIGN_SYSTEM_REPO_TOKEN secret whose access is limited to this repository's contents.
 <!-- bobrin-design-system:sync:end -->
