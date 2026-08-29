@@ -1,6 +1,6 @@
 /**
  * Brand tokens synced from artifacts/portfolio (index.css).
- * Dark-first portfolio — identical light/dark since the web app
+ * Dark-first portfolio, identical light/dark since the web app
  * is also exclusively dark.
  */
 
